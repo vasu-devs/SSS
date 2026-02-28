@@ -1,0 +1,26 @@
+paths:
+  input: "./screenshots"
+  output: "./output"
+  log: "./links.md"
+
+model:
+  name: "Qwen/Qwen2-VL-2B-Instruct"
+  device: "cuda"
+  max_tokens: 512
+  temperature: 0.1
+
+processing:
+  image_size: 1024
+  batch_size: 1
+  clear_cache_every: 5
+
+categories:
+  - anime
+  - tech
+  - hiring
+  - finance
+  - learning
+  - health
+  - news
+  - memes
+  - misc
